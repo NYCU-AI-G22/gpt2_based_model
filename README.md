@@ -54,7 +54,7 @@ Download the model from the following link and place it in the `saved_model` dir
 You can use `curl` to interact with the API. Here is an example of how to use the `generate-text` endpoint:
 
 ```sh
-curl -X POST http://127.0.0.1:5000/generate-text -H "Content-Type: application/json" -d "{\"input_text\": \"Hello, how are you?\"}"
+curl -X POST http://127.0.0.1:5000/generate-text -H "Content-Type: application/json" -d "{\"input_text\": \"The weather is bad today.\"}"
 ```
 
 This command sends a POST request to the `generate-text` endpoint with a JSON payload containing the input text.
