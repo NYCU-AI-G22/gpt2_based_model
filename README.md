@@ -5,7 +5,7 @@
 The project directory is organized as follows:
 
 ```
-ai_final_project/
+gpt2_based_model/
 ├── app.py
 ├── model.py
 └── saved_model/
@@ -22,7 +22,7 @@ Download the model from the following link and place it in the `saved_model` dir
 1. **Navigate to the project directory**:
 
     ```sh
-    cd C:\Users\<username>\ai_final_project
+    cd C:\Users\<username>\gpt2_based_model
     ```
 
 2. **Activate the virtual environment**:
